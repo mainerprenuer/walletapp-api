@@ -1,66 +1,48 @@
-## Digital Wallet Application
-This is a digital wallet application built with NestJS, a framework for building scalable and efficient server-side applications in Node.js. The application provides a secure and convenient way for users to manage their payment information and make transactions online.
-
-## Digital Wallet App
-This is a digital wallet app built with Flutter and NestJS. The app allows users to perform digital transactions, manage their accounts, and earn rewards.
+## My Wallet App
+My Wallet is a digital wallet app that allows users to store and manage their funds, make payments, and earn rewards.
 
 ## Features and Functionality
-The app includes the following features and functionality:
 
-User registration and authentication
-Secure login using OAuth 2.0
-Add, manage and verify payment methods
-Perform digital transactions
-Receive and redeem rewards
-View transaction history and account balance
-Wireframe and Mockup
-The app's wireframe and mockup were designed using Figma. The mockup includes the app's user interface, features, and functionality.
+- User registration and login
+- Secure account authentication and authorization
+- Wallet management: add funds, view balance, withdraw funds
+- Payment processing: pay bills, transfer funds to other users
+- Loyalty program: earn rewards for using the app
+- Security features: encryption, authentication, and authorization
+- Automated testing for comprehensive test coverage
+- Technologies Used
+- Flutter for the front-end
+- NestJS for the back-end
+- PostgreSQL for the database
+- Stripe for payment processing
 
-## Development Environment Setup
-To set up your development environment for this project, follow these steps:
+## Getting Started
+To run this app, you'll need to have Flutter and NestJS installed on your machine. You'll also need to set up a Stripe account and obtain an API key.
 
-Install Flutter and Android Studio
-Install the Dart and Flutter plugins for Android Studio
-Clone the project repository from GitHub
-Create a New NestJS Project
-To create a new NestJS project, follow these steps:
+## Clone this repository to your local machine
+Install dependencies for the Flutter app by running flutter pub get
+Install dependencies for the NestJS app by running npm install
+Set up your Stripe API key in the NestJS environment variables file
+Run the Flutter app by running flutter run
+Run the NestJS app by running npm start
+API Endpoints
+The following API endpoints are available for interacting with the app:
 
-Install Node.js and NPM
-Install NestJS using the command npm install -g @nestjs/cli
-Create a new NestJS project using the command nest new project-name
-Set Up API Endpoints
-To set up API endpoints, follow these steps:
+/api/users for managing user accounts
+/api/wallets for managing wallet balances
+/api/payments for processing payments and transfers
+/api/rewards for managing loyalty program rewards
+Automated Testing
+Automated testing has been set up for the Flutter and NestJS apps using Flutter's built-in testing framework and Jest, respectively. To run tests, run flutter test for the Flutter app and npm test for the NestJS app.
 
-## Define the API endpoints required for the app
-Create controllers to handle the API endpoints
-Implement the logic for the API endpoints
-Build UI Components
-To build UI components, follow these steps:
+## Security
+This app includes various security features to protect user data and ensure the privacy of users. These features include encryption, authentication, and authorization.
 
-## Create the UI design for each screen of the app
-Implement the UI design using Flutter widgets
-Add navigation between screens
-Integrate Payment Processing
-To integrate payment processing, follow these steps:
+## Contributing
+Contributions to this project are welcome! To contribute, please fork this repository, make your changes, and submit a pull request.
 
-## Choose a payment processing provider
-Set up payment processing in the app's backend
-Implement payment processing in the app's frontend
-Implement Security Features
-To implement security features, follow these steps:
-
-## Define the app's security requirements
-Choose security tools and frameworks
-Implement authentication and authorization
-Use encryption and data protection
-Perform regular security audits
-Ensure compliance with relevant security regulations and industry standards
-Test the App
-To test the app, follow these steps:
-
-## Write test cases to cover all app functionality
-Automate testing using testing frameworks and tools
-Conduct manual testing
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 <br>
 <br><br>
