@@ -1,3 +1,62 @@
+## My Wallet App
+My Wallet is a digital wallet app that allows users to store and manage their funds, make payments, and earn rewards.
+
+## Features and Functionality
+
+- User registration and login
+- Secure account authentication and authorization
+- Wallet management: add funds, view balance, withdraw funds
+- Payment processing: pay bills, transfer funds to other users
+- Loyalty program: earn rewards for using the app
+- Security features: encryption, authentication, and authorization
+- Automated testing for comprehensive test coverage
+- Technologies Used
+- Flutter for the front-end
+- NestJS for the back-end
+- PostgreSQL for the database
+- Stripe for payment processing
+
+## Getting Started
+To run this app, you'll need to have Flutter and NestJS installed on your machine. You'll also need to set up a Stripe account and obtain an API key.
+
+## Clone this repository to your local machine
+Install dependencies for the Flutter app by running flutter pub get
+Install dependencies for the NestJS app by running npm install
+Set up your Stripe API key in the NestJS environment variables file
+Run the Flutter app by running flutter run
+Run the NestJS app by running npm start
+API Endpoints
+The following API endpoints are available for interacting with the app:
+
+/api/users for managing user accounts
+/api/wallets for managing wallet balances
+/api/payments for processing payments and transfers
+/api/rewards for managing loyalty program rewards
+Automated Testing
+Automated testing has been set up for the Flutter and NestJS apps using Flutter's built-in testing framework and Jest, respectively. To run tests, run flutter test for the Flutter app and npm test for the NestJS app.
+
+## Security
+This app includes various security features to protect user data and ensure the privacy of users. These features include encryption, authentication, and authorization.
+
+## Contributing
+Contributions to this project are welcome! To contribute, please fork this repository, make your changes, and submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+<br>
+<br><br>
+<br><br>
+<br><br>
+
+
+
+
+
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
