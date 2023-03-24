@@ -13,8 +13,9 @@ My Wallet is a digital wallet app that allows users to store and manage their fu
 - Technologies Used
 - Flutter for the front-end
 - NestJS for the back-end
-- PostgreSQL for the database
+- MySQL for the database
 - Stripe for payment processing
+- Paystack for payment processing
 
 ## Getting Started
 To run this app, you'll need to have Flutter and NestJS installed on your machine. You'll also need to set up a Stripe account and obtain an API key.
